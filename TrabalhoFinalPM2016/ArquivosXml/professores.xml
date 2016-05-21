@@ -1,0 +1,26 @@
+<programa>
+	<linha nome="Representação de Conhecimento e Raciocínio">
+		<professor codigo="1841338064901299" nome="Adriana Cesário de Faria Alvim"/>
+		<professor codigo="1728746187630338" nome="Bernardo Pereira Nunes"/>
+		<professor codigo="5067382475630761" nome="Leila Cristina Vasconcelos de Andrade"/>
+		<professor codigo="0814717344017544" nome="Kate Cerqueira Revoredo"/>
+		<professor codigo="2562652838103607" nome="Sean Wolfgand Matsui Siqueira"/>
+	</linha>
+	<linha nome="Distribuição e Redes">
+		<professor codigo="8934031838766350" nome="Astério Kiyoshi Tanaka"/>
+		<professor codigo="8020803376969953" nome="Carlos Alberto Vieira Campos"/>
+		<professor codigo="5068302552861597" nome="Fernanda Araújo Baião Amorim"/>
+		<professor codigo="7214791464543522" nome="Leonardo Guerreiro Azevedo"/>
+		<professor codigo="1415781875529432" nome="Morganna Carmem Diniz"/>
+		<professor codigo="7099151449971406" nome="Sidney Cunha de Lucena"/>
+	</linha>
+	<linha nome="Sistemas de Apoio a Negócios">
+		<professor codigo="4930762936357558" nome="Claudia Cappelli"/>
+		<professor codigo="5377746284077362" nome="Flávia Maria Santoro"/>
+		<professor codigo="4616202382103338" nome="Gleison dos Santos Santos"/>
+		<professor codigo="0821562324429813" nome="Márcio de Oliveira Barros"/>
+		<professor codigo="1920411639358905" nome="Mariano Pimentel"/>
+		<professor codigo="3589012014320121" nome="Renata Mendes de Araujo"/>
+		<professor codigo="0926018459123736" nome="Simone Bacellar Leal Ferreira"/>
+	</linha>
+</programa>
