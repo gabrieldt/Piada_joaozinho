@@ -42,7 +42,7 @@ public class DownloadArquivos
         FileOutputStream fos = new FileOutputStream( path_to_local_xml_file );
         fos.getChannel().transferFrom( rbc, 0, Long.MAX_VALUE );
 
-        consertarCagadaArquivoXml.removeFirstLine(path_to_local_xml_file);
+        ConsertarCagadaArquivoXml.removeFirstLine(path_to_local_xml_file);
         
         return path_to_local_xml_file;
     }

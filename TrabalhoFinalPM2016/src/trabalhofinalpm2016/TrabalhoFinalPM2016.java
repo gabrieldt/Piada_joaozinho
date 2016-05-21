@@ -7,6 +7,7 @@ package trabalhofinalpm2016;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.util.List;
 import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 
@@ -22,13 +23,13 @@ public class TrabalhoFinalPM2016
      */
     public static void main(String[] args) throws IOException, MalformedURLException, ParserConfigurationException, SAXException
     {
-          //DOWNLOAD ARQUIVO PROGRAMAS POS GRADUACAO
+        //DOWNLOAD ARQUIVO PROGRAMAS POS GRADUACAO
         String path_to_remote_programas_xml_file = "https://s3.amazonaws.com/posgraduacao/programas.xml";
         String new_file_name_programas = "programas.xml";
         
         String path_to_local_programas_xml_file = DownloadArquivos.downloadArquivo( path_to_remote_programas_xml_file, new_file_name_programas );
         
-        String nome_programa_pos_graduacao_unirio = lerArquivosXml.getNomePosGraduacaoUnirio( path_to_local_programas_xml_file );
+        String nome_programa_pos_graduacao_unirio = LerArquivosXml.getNomePosGraduacaoUnirio( path_to_local_programas_xml_file );
         
         // DOWNLOAD DO ARQUIVO COM O NOME E CODIGO DOS PROFESSORES QUE PARTICIPAM
         // DO PROGRAMA DE POS GRADUACAO DA UNIRIO
@@ -37,6 +38,15 @@ public class TrabalhoFinalPM2016
         String new_file_name_professores = "professores.xml";
         
         String path_to_local_professores_xml_file = DownloadArquivos.downloadArquivo( path_to_remote_professores_xml_file, new_file_name_professores );
+     
+        List<Professor> professores = LerArquivosXml.getProfessores(path_to_local_professores_xml_file);
+        
+        /* testa iteracao na lista de professores */
+        for( Professor p : professores)
+        {
+            System.out.println( p.toString());
+            
+        }
         
     }
     

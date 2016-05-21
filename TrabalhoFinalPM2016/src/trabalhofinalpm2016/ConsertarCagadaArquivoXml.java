@@ -12,7 +12,7 @@ import java.io.RandomAccessFile;
  *
  * @author gabriel
  */
-public class consertarCagadaArquivoXml
+public class ConsertarCagadaArquivoXml
 {
     public static void removeFirstLine(String fileName) throws IOException {  
     RandomAccessFile raf = new RandomAccessFile(fileName, "rw");          
