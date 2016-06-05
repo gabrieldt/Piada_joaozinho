@@ -278,7 +278,9 @@ public class LerArquivosXml
                 //System.out.println( "Titulo: " + titulo_periodico_revista.toUpperCase() );
                 //System.out.println( "Regex: " + regex );
                 
-                if( titulo_periodico_revista.compareToIgnoreCase( regex ) == 0 )
+                //if( titulo_periodico_revista.compareToIgnoreCase( regex ) == 0 )
+                  //  return eElement.getAttribute( "class" );
+                if( regex.toLowerCase().contains( titulo_periodico_revista.toLowerCase() ))
                     return eElement.getAttribute( "class" );
                     
             }
