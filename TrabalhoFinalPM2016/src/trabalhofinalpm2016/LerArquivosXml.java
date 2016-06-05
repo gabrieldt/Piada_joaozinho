@@ -218,22 +218,6 @@ public class LerArquivosXml
                             {
                                 String titulo_periodico_revista = eElement.getAttribute( "NOME-DO-EVENTO" );
                                 
-                                /*  o nome do evento e precedido pelo numero sequencial do evento
-                                    que nao tem no arquivo qualis.xml.
-                                    Ex.: 
-                                
-                                curriculo: International Conference on Engineering Education (ICEE 2003)
-                                qualis: International Conference on Engineering Education
-                                
-                                curriculo: The 7th IASTED International Conference on Computers and Advanced Technology in Education (CATE 2004)
-                                qualis: IASTED International Conference on Computers and Advanced Technology in Education
-                                
-                                curriculo: EATIS 2007 - Euro American Conference on Telematics and Information Systems
-                                qualis: Euro American Conference on Telematics and Information Systems
-                                
-                                por isso tem-se que dividir o NOME-DO-EVENTO retirando alguns padroes do inicio e do fim 
-                                */
-                                //titulo_periodico_revista = Util.tratarNomeDoEvento();
                                 String classificacao = getClassificacaoArtigo( doc_qualis, titulo_periodico_revista );
                                 Artigo a = new Artigo();
                                 a.setPublicacao( "EVENTOS" );
@@ -274,9 +258,6 @@ public class LerArquivosXml
                 Element eElement = (Element)nNode;
 
                 String regex = eElement.getAttribute( "regex" );
-                //System.out.println("#####");
-                //System.out.println( "Titulo: " + titulo_periodico_revista.toUpperCase() );
-                //System.out.println( "Regex: " + regex );
                 
                 //if( titulo_periodico_revista.compareToIgnoreCase( regex ) == 0 )
                   //  return eElement.getAttribute( "class" );
