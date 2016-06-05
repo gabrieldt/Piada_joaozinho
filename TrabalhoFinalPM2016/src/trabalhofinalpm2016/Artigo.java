@@ -11,13 +11,26 @@ package trabalhofinalpm2016;
  */
 public class Artigo
 {
-    /*  publicacao valores:( REVISTAS | EVENTOS )   */
+    /**
+     * publicacao valores:( REVISTAS | EVENTOS )   
+     */
     private String publicacao;
     
-    /*  classificacao valores:( A1 | A2 | B1 | B2 | B3 | B4 | C | NC )    */
+    /**
+     * classificacao valores:( A1 | A2 | B1 | B2 | B3 | B4 | C | NC )    
+     */
     private String classificacao;
 
-    public Artigo(String publicacao, String classificacao)
+    public Artigo()
+    {
+    }
+
+    public Artigo(String publicacao)
+    {
+        this.publicacao = publicacao;
+    }
+    
+    public Artigo( String publicacao, String classificacao )
     {
         if( publicacao.equals("REVISTAS") || publicacao.equals("EVENTOS") )
         {

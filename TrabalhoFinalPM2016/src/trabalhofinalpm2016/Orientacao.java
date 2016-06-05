@@ -22,7 +22,7 @@ public class Orientacao
      * @param concluida TRUE ou FALSE
      * @param nivel_graduacao DOUTORADO | MESTRADO | GRADUACAO
      */
-    public Orientacao(boolean concluida, String nivel_graduacao)
+    public Orientacao( boolean concluida, String nivel_graduacao )
     {
         this.concluida = concluida;
         
