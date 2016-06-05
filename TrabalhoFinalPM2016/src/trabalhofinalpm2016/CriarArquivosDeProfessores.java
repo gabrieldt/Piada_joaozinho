@@ -25,6 +25,7 @@ public class CriarArquivosDeProfessores
         String linha_de_pesquisa_anterior = "VAZIO";
         TotalProfessorLinhaDePesquisa totalPLP = new TotalProfessorLinhaDePesquisa();
         TotalProfessorPrograma totalPP = new TotalProfessorPrograma();
+        totalPP.setNome_programa( nome_programa );
         
         for( Professor p : listaProfessores )
         {

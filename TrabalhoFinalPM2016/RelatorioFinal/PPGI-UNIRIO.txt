@@ -20,4 +20,4 @@ Professor(a) Renata Mendes de Araujo	0	2	1	4	2	0	8	13	0	0	2	3	2	8	0	85	15	45	25	
 Professor(a) Simone Bacellar Leal Ferreira	0	0	0	0	1	0	13	21	0	0	0	0	0	0	0	133	3	34	17	0	33	20	1	7	0
 Total da linha de pesquisa Sistemas de Apoio a Negócios	0.4	1.4	0.9	1.7	2.0	0.3	5.3	13.1	0.3	0.0	0.6	0.9	1.7	3.7	0.0	105.3	9.0	33.9	23.0	0.6	21.3	17.7	3.1	3.1	0.9	
 
-Total do Programa 	0.5	1.4	0.6	0.7	1.2	0.7	2.6	8.6	0.2	0.1	0.4	0.6	1.0	2.3	0.0	74.5	6.2	26.9	15.9	0.4	16.7	12.3	1.9	1.9	0.6	
+Total do Programa PPGI-UNIRIO	0.5	1.4	0.6	0.7	1.2	0.7	2.6	8.6	0.2	0.1	0.4	0.6	1.0	2.3	0.0	74.5	6.2	26.9	15.9	0.4	16.7	12.3	1.9	1.9	0.6	
