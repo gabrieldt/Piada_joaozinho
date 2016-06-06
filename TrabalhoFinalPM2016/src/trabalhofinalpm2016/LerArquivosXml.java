@@ -261,12 +261,9 @@ public class LerArquivosXml
                 
                 //if( titulo_periodico_revista.compareToIgnoreCase( regex ) == 0 )
                   //  return eElement.getAttribute( "class" );
-                if( regex.toLowerCase().contains( titulo_periodico_revista.toLowerCase() ))
+                if( titulo_periodico_revista.toLowerCase().contains( regex.toLowerCase() ) )
                     return eElement.getAttribute( "class" );
-                    
             }
-                
-            
        }
        /*   nao classificado    */
        return "NC";
