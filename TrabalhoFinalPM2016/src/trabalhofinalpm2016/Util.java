@@ -82,10 +82,4 @@ public class Util
        
         return is;
     }
-    /*
-    public static String tratarNomeDoEvento( String nome_do_evento )
-    {
-        
-    }
-    */
 }

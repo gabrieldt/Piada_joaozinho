@@ -54,7 +54,7 @@ public class LerArquivosXml
                 nomeProgramaPosGraduacao = childElement.getAttribute("nome");
             }
        }
-        return nomeProgramaPosGraduacao;
+       return nomeProgramaPosGraduacao;
     }
     
     public static List<Professor> getProfessores( InputStream arquivo_memoria_xml )
@@ -113,7 +113,6 @@ public class LerArquivosXml
         Document doc = getDocumentXml( curriculo_memoria );
         /*  faz o download do arquivo qualis.xml para classificar os artigos    */
         String caminho_arquivo_qualis = "https://s3.amazonaws.com/posgraduacao/qualis.xml";
-        String novo_nome_arquivo = "qualis.xml";
         InputStream arquivo_qualis_memoria = Util.downloadMemoria( caminho_arquivo_qualis );
         Document doc_qualis = getDocumentXml( arquivo_qualis_memoria );
         
@@ -165,7 +164,8 @@ public class LerArquivosXml
                             {
                                 Artigo a = new Artigo();
                                 String titulo_periodico_revista = eElement.getAttribute( "TITULO-DO-PERIODICO-OU-REVISTA" );
-                                String classificacao = getClassificacaoArtigo( doc_qualis, titulo_periodico_revista );
+                                String classificacao = getClassificacaoArtigoRevistas( doc_qualis, titulo_periodico_revista );
+                                //System.out.println("mas que carai" + classificacao);
                                 a.setPublicacao( "REVISTAS" );
                                 a.setClassificacao( classificacao );
                                 p.adicionaArtigoNoCurriculo( a );
@@ -216,9 +216,9 @@ public class LerArquivosXml
                             }
                             if( eElement.getNodeName().equals( "DETALHAMENTO-DO-TRABALHO" ) )
                             {
-                                String titulo_periodico_revista = eElement.getAttribute( "NOME-DO-EVENTO" );
+                                String nome_evento = eElement.getAttribute( "NOME-DO-EVENTO" );
                                 
-                                String classificacao = getClassificacaoArtigo( doc_qualis, titulo_periodico_revista );
+                                String classificacao = getClassificacaoArtigoEventos( doc_qualis, nome_evento );
                                 Artigo a = new Artigo();
                                 a.setPublicacao( "EVENTOS" );
                                 a.setClassificacao( classificacao );
@@ -241,13 +241,13 @@ public class LerArquivosXml
      * @throws ParserConfigurationException
      * @throws SAXException 
      */
-    public static String getClassificacaoArtigo( Document doc_qualis, String titulo_periodico_revista )
+    public static String getClassificacaoArtigoRevistas( Document doc_qualis, String titulo_periodico_revista )
                                                   throws IOException, 
                                                        MalformedURLException, 
                                                        ParserConfigurationException,
                                                        SAXException
     {
-       NodeList nList = doc_qualis.getElementsByTagName("entry");
+       NodeList nList = doc_qualis.getElementsByTagName( "entry" );
         
        for(int n=0; n < nList.getLength(); n++)
        {
@@ -256,19 +256,72 @@ public class LerArquivosXml
             if( nNode instanceof Element )
             {
                 Element eElement = (Element)nNode;
-
-                String regex = eElement.getAttribute( "regex" );
-                
-                //if( titulo_periodico_revista.compareToIgnoreCase( regex ) == 0 )
-                  //  return eElement.getAttribute( "class" );
-                if( titulo_periodico_revista.toLowerCase().contains( regex.toLowerCase() ) )
-                    return eElement.getAttribute( "class" );
+               
+                if( eElement.getAttribute( "type" ).equals( "Periódico" ) )
+                {
+                    String regex = eElement.getAttribute( "regex" );
+                    String regexQualis = "(.*)" + regex + "(.*)";
+                    
+                    if( titulo_periodico_revista.matches( regexQualis ) )
+                        return eElement.getAttribute( "class" );
+                }
             }
        }
-       /*   nao classificado    */
+       /*   nao tem classificacao no arquivo qualis.xml    */
+       return "NC";
+    }
+ 
+    /**
+     * 
+     * @param doc_qualis
+     * @param nome_evento
+     * @return
+     * @throws IOException
+     * @throws MalformedURLException
+     * @throws ParserConfigurationException
+     * @throws SAXException 
+     */
+    public static String getClassificacaoArtigoEventos( Document doc_qualis, String nome_evento )
+                                                  throws IOException, 
+                                                       MalformedURLException, 
+                                                       ParserConfigurationException,
+                                                       SAXException
+    {
+       NodeList nList = doc_qualis.getElementsByTagName( "entry" );
+        
+       for(int n=0; n < nList.getLength(); n++)
+       {
+            Node nNode = nList.item(n);
+            
+            if( nNode instanceof Element )
+            {
+                Element eElement = (Element)nNode;
+                
+                if( eElement.getAttribute( "type" ).equals( "Conferência" ) )
+                {
+                    String regex = eElement.getAttribute( "regex" );
+                    String regexQualis = "(.*)" + regex + "(.*)";
+                    
+                    if( nome_evento.matches( regexQualis ) )
+                        return eElement.getAttribute( "class" );
+                }
+            }
+       }
+       /*   nao tem classificacao no arquivo qualis.xml    */
        return "NC";
     }
     
+    /**
+     * 
+     * @param doc
+     * @param p
+     * @param ano_inicial
+     * @param ano_final
+     * @throws IOException
+     * @throws MalformedURLException
+     * @throws ParserConfigurationException
+     * @throws SAXException 
+     */
     public static void parseParticipacoesBancas( Document doc, Professor p, String ano_inicial, String ano_final )
                                                     throws IOException, 
                                                        MalformedURLException, 
@@ -278,11 +331,6 @@ public class LerArquivosXml
        parseParticipacoesBancasGraduacao( doc, p, ano_inicial, ano_final );
        parseParticipacoesBancasMestrado( doc, p, ano_inicial, ano_final );
        parseParticipacoesBancasDoutorado( doc, p, ano_inicial, ano_final );
-       /*
-       System.out.println( "PROF: " + p.getNome() + " PEB  graduacao: " + p.getNumParticipacaoBancas( "GRADUACAO" ) );
-       System.out.println( "PROF: " + p.getNome() + " PEB  mestrado: " + p.getNumParticipacaoBancas( "MESTRADO" ) );
-       System.out.println( "PROF: " + p.getNome() + " PEB  doutorado: " + p.getNumParticipacaoBancas( "DOUTORADO" ) );
-       */
     }
     
     
