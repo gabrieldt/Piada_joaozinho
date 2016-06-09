@@ -28,30 +28,10 @@ public class TrabalhoFinalPM2016
      */
     public static void main(String[] args) throws IOException, MalformedURLException, ParserConfigurationException, SAXException
     {
-        String nome_programa_pos_graduacao = "";
-        String ano_inical = "0";
-        String ano_final = "0";
+        String nome_programa_pos_graduacao = "Programa PPGI";
+        String ano_inical = "2000";
+        String ano_final = "2016";
         
-        int tamanho_args = 0;
-        for(String s : args )
-        {
-            tamanho_args++;
-        }
-        
-        if( tamanho_args == 3 
-            && args[1].length() == 4 
-            && args[2].length() == 4 )
-        {
-            nome_programa_pos_graduacao = args[0];
-            ano_inical = args[1];
-            ano_final = args[2];
-        }
-        else
-        {
-            System.out.println( "Insira o nome do programa e as datas!" );
-            System.exit(1);
-        }
-         
         /*  DOWNLOAD ARQUIVO PROGRAMAS POS GRADUACAO    */
         String caminho_arquivo_remoto_xml = "https://s3.amazonaws.com/posgraduacao/programas.xml";
         String new_file_name_programas = "programas.xml";

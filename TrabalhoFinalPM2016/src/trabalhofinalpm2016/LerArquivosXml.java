@@ -257,12 +257,15 @@ public class LerArquivosXml
             {
                 Element eElement = (Element)nNode;
                
-                if( eElement.getAttribute( "type" ).equals( "Periódico" ) )
+                if( eElement.getAttribute( "type" ).equals( "Periódico" ) || eElement.getAttribute( "type" ).equals( "periodico" ) ||  eElement.getAttribute( "type" ).equals( "PERIODICO" ) || eElement.getAttribute( "type" ).equals( "Periodico" ))
                 {
                     String regex = eElement.getAttribute( "regex" );
                     String regexQualis = "(.*)" + regex + "(.*)";
-                    
-                    if( titulo_periodico_revista.matches( regexQualis ) )
+                    String titulo_periodico_revista_UpCase = titulo_periodico_revista.toUpperCase(); 
+                    String titulo_periodico_revista_LowerCase = titulo_periodico_revista.toLowerCase( ); 
+                    String regexQualisUpper = regexQualis.toUpperCase(); 
+                            
+                    if( titulo_periodico_revista_UpCase.matches(regexQualisUpper))
                         return eElement.getAttribute( "class" );
                 }
             }
@@ -272,7 +275,8 @@ public class LerArquivosXml
     }
  
     /**
-     * 
+     *      if( titulo_periodico_revista_UpCase.matches( regexQualisUpper ) || titulo_periodico_revista.matches( regexQualis ) || titulo_periodico_revista_UpCase.matches( regexQualis ) || titulo_periodico_revista_LowerCase.matches( regexQualis ))
+                        return eElement.getAttribute( "class" );
      * @param doc_qualis
      * @param nome_evento
      * @return
