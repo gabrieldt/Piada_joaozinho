@@ -261,8 +261,7 @@ public class LerArquivosXml
                 {
                     String regex = eElement.getAttribute( "regex" );
                     String regexQualis = "(.*)" + regex + "(.*)";
-                    String titulo_periodico_revista_UpCase = titulo_periodico_revista.toUpperCase(); 
-                    String titulo_periodico_revista_LowerCase = titulo_periodico_revista.toLowerCase( ); 
+                    String titulo_periodico_revista_UpCase = titulo_periodico_revista.toUpperCase();  
                     String regexQualisUpper = regexQualis.toUpperCase(); 
                             
                     if( titulo_periodico_revista_UpCase.matches(regexQualisUpper))
@@ -275,8 +274,7 @@ public class LerArquivosXml
     }
  
     /**
-     *      if( titulo_periodico_revista_UpCase.matches( regexQualisUpper ) || titulo_periodico_revista.matches( regexQualis ) || titulo_periodico_revista_UpCase.matches( regexQualis ) || titulo_periodico_revista_LowerCase.matches( regexQualis ))
-                        return eElement.getAttribute( "class" );
+     *     
      * @param doc_qualis
      * @param nome_evento
      * @return
@@ -301,12 +299,14 @@ public class LerArquivosXml
             {
                 Element eElement = (Element)nNode;
                 
-                if( eElement.getAttribute( "type" ).equals( "Conferência" ) )
+                if( eElement.getAttribute( "type" ).equals( "Conferência" ) || eElement.getAttribute( "type" ).equals( "conferencia" ) || eElement.getAttribute( "type" ).equals( "conferência" ) || eElement.getAttribute( "type" ).equals( "CONFERÊNCIA" ) || eElement.getAttribute( "type" ).equals( "CONFERENCIA" ) )
                 {
                     String regex = eElement.getAttribute( "regex" );
                     String regexQualis = "(.*)" + regex + "(.*)";
+                    String regexQualisUpper2 = regexQualis.toUpperCase();
+                    String nome_evento_Up = nome_evento.toUpperCase();
                     
-                    if( nome_evento.matches( regexQualis ) )
+                    if( nome_evento_Up.matches( regexQualisUpper2 ) )
                         return eElement.getAttribute( "class" );
                 }
             }
