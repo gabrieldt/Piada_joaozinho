@@ -28,7 +28,7 @@ public class TrabalhoFinalPM2016
      */
     public static void main(String[] args) throws IOException, MalformedURLException, ParserConfigurationException, SAXException
     {
-        String nome_programa_pos_graduacao = "Programa PPGI";
+        String nome_programa_pos_graduacao = "PPGI-UNIRIO";
         String ano_inical = "2000";
         String ano_final = "2016";
         
@@ -63,7 +63,11 @@ public class TrabalhoFinalPM2016
             
             InputStream arquivo_xml_descompactado = Util.descompactaArquivoEmMemoria( arquivo_zip_memoria );
             
-            LerArquivosXml.parseCurriculoProfessor( arquivo_xml_descompactado, p, ano_inical, ano_final );
+            boolean parsefunciona = false;
+            
+            parsefunciona = LerArquivosXml.parseCurriculoProfessor( arquivo_xml_descompactado, p, ano_inical, ano_final );
+       
+            System.out.println(parsefunciona);
         }
         
         CriarArquivosDeProfessores.escreverArquivoFinal( professores, nome_programa_pos_graduacao );
