@@ -104,7 +104,7 @@ public class LerArquivosXml
     }
     
     
-    public static void parseCurriculoProfessor( InputStream curriculo_memoria, Professor p,
+    public static boolean parseCurriculoProfessor( InputStream curriculo_memoria, Professor p,
                                                 String ano_inicial, String ano_final ) 
                                             throws SAXException,
                                                    IOException, 
@@ -120,6 +120,7 @@ public class LerArquivosXml
         parseArtigosEventos( doc, doc_qualis, p, ano_inicial, ano_final );
         parseParticipacoesBancas( doc, p, ano_inicial, ano_final );
         parseOrientacoes( doc, p, ano_inicial, ano_final );
+        return true;
     }
     
     private static void parseArtigosRevistas( Document doc, Document doc_qualis, Professor p, String ano_inicial, String ano_final ) 
