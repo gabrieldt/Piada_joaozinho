@@ -10,18 +10,20 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import trabalhofinalpm2016.CriarArquivosDeProfessores;
-
+import trabalhofinalpm2016.TotalProfessorPrograma;
 /**
  *
  * @author Gabriel
  */
-public class TestCriarArquivosDeProfessores {
+public class TestTotalProfessorPrograma {
+      public TotalProfessorPrograma PrimeiraInstancia = new TotalProfessorPrograma();
     
-    @Test
-    public void testeEscreverArquivoFinal(){
-
-
-  }
+    
+   @Test
+        public void testegetLinhaDePesquisaTotal (){
+      
+             assertEquals(0.0,PrimeiraInstancia.getArtigos_revistas_A1(),0.0);
+            
+        }
     
 }
