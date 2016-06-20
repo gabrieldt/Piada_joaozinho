@@ -1,162 +1,162 @@
 Professor(a) ADRIANA CESÁRIO DE FARIA ALVIM		
-Artigos em Revistas:		A1: 2	A2: 1	B1: 0	B2: 0	B3: 0	B4: 0	C: 1	NC: 2	
-Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 1	B4: 3	C: 0	NC: 13	
-Participacoes em Bancas:	Doutorado: 3	Mestrado: 10	Graduacao: 10	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 8	Graduacao: 1	
+Artigos em Revistas:		A1: 1	A2: 0	B1: 0	B2: 0	B3: 0	B4: 0	C: 0	NC: 2	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 0	B4: 0	C: 0	NC: 7	
+Participacoes em Bancas:	Doutorado: 1	Mestrado: 2	Graduacao: 7	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 5	Graduacao: 1	
 Orientacoes em Andamento:	Doutorado: 0	Mestrado: 3	Graduacao: 0	
 
 Professor(a) BERNARDO PEREIRA NUNES		
-Artigos em Revistas:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 0	B4: 2	C: 0	NC: 2	
-Artigos em Eventos:		A1: 4	A2: 0	B1: 7	B2: 1	B3: 2	B4: 0	C: 0	NC: 36	
+Artigos em Revistas:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 0	B4: 1	C: 0	NC: 2	
+Artigos em Eventos:		A1: 4	A2: 0	B1: 7	B2: 1	B3: 2	B4: 0	C: 0	NC: 35	
 Participacoes em Bancas:	Doutorado: 0	Mestrado: 4	Graduacao: 0	
 Orientacoes Concluidas:		Doutorado: 0	Mestrado: 0	Graduacao: 0	
 Orientacoes em Andamento:	Doutorado: 0	Mestrado: 1	Graduacao: 0	
 
 Professor(a) LEILA CRISTINA VASCONCELOS DE ANDRADE		
-Artigos em Revistas:		A1: 0	A2: 2	B1: 0	B2: 0	B3: 0	B4: 2	C: 0	NC: 1	
-Artigos em Eventos:		A1: 1	A2: 1	B1: 0	B2: 1	B3: 1	B4: 2	C: 0	NC: 28	
-Participacoes em Bancas:	Doutorado: 0	Mestrado: 11	Graduacao: 22	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 10	Graduacao: 14	
+Artigos em Revistas:		A1: 0	A2: 2	B1: 0	B2: 0	B3: 0	B4: 1	C: 0	NC: 1	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 1	B3: 1	B4: 2	C: 0	NC: 12	
+Participacoes em Bancas:	Doutorado: 0	Mestrado: 9	Graduacao: 19	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 10	Graduacao: 10	
 Orientacoes em Andamento:	Doutorado: 0	Mestrado: 2	Graduacao: 0	
 
 Professor(a) KATE CERQUEIRA REVOREDO		
-Artigos em Revistas:		A1: 1	A2: 2	B1: 0	B2: 1	B3: 0	B4: 0	C: 0	NC: 3	
-Artigos em Eventos:		A1: 4	A2: 1	B1: 7	B2: 3	B3: 1	B4: 9	C: 0	NC: 58	
-Participacoes em Bancas:	Doutorado: 5	Mestrado: 25	Graduacao: 23	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 13	Graduacao: 9	
+Artigos em Revistas:		A1: 0	A2: 2	B1: 0	B2: 1	B3: 0	B4: 0	C: 0	NC: 3	
+Artigos em Eventos:		A1: 4	A2: 1	B1: 2	B2: 2	B3: 1	B4: 6	C: 0	NC: 51	
+Participacoes em Bancas:	Doutorado: 5	Mestrado: 25	Graduacao: 17	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 13	Graduacao: 7	
 Orientacoes em Andamento:	Doutorado: 3	Mestrado: 7	Graduacao: 0	
 
 Professor(a) SEAN WOLFGAND MATSUI SIQUEIRA		
-Artigos em Revistas:		A1: 0	A2: 5	B1: 1	B2: 0	B3: 2	B4: 3	C: 1	NC: 8	
-Artigos em Eventos:		A1: 2	A2: 1	B1: 13	B2: 8	B3: 5	B4: 18	C: 0	NC: 63	
-Participacoes em Bancas:	Doutorado: 12	Mestrado: 65	Graduacao: 22	
-Orientacoes Concluidas:		Doutorado: 2	Mestrado: 24	Graduacao: 7	
+Artigos em Revistas:		A1: 0	A2: 5	B1: 1	B2: 0	B3: 1	B4: 3	C: 0	NC: 4	
+Artigos em Eventos:		A1: 2	A2: 1	B1: 10	B2: 3	B3: 2	B4: 8	C: 0	NC: 33	
+Participacoes em Bancas:	Doutorado: 10	Mestrado: 51	Graduacao: 17	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 17	Graduacao: 7	
 Orientacoes em Andamento:	Doutorado: 4	Mestrado: 12	Graduacao: 1	
 
 
 Total da linha de pesquisa Representação de Conhecimento e Raciocínio	
-Artigos em Revistas: 		A1: 0.6	A2: 2.0	B1: 0.2	B2: 0.2	B3: 0.4	B4: 1.4	C: 0.4	NC: 3.2	
-Artigos em Eventos: 		A1: 2.2	A2: 0.6	B1: 5.4	B2: 2.6	B3: 2.0	B4: 6.4	C: 0.0	NC: 39.6	
-Participacao em Banca: 		Doutorado: 4.0	Mestrado: 23.0	Graduacao: 15.4	
-Orientacao  Concluida: 		Doutorado: 0.4	Mestrado: 11.0	Graduacao: 6.2	
-Orientacao em Andamento: 	Doutorado: 1.4	Mestrado: 1.4	Graduacao: 0.2	
+Artigos em Revistas: 		A1: 0,2	A2: 1,8	B1: 0,2	B2: 0,2	B3: 0,2	B4: 1,0	C: 0,0	NC: 2,4	
+Artigos em Eventos: 		A1: 2,0	A2: 0,4	B1: 3,8	B2: 1,4	B3: 1,2	B4: 3,2	C: 0,0	NC: 27,6	
+Participacao em Banca: 		Doutorado: 3,2	Mestrado: 18,2	Graduacao: 12,0	
+Orientacao  Concluida: 		Doutorado: 0,0	Mestrado: 9,0	Graduacao: 5,0	
+Orientacao em Andamento: 	Doutorado: 1,4	Mestrado: 1,4	Graduacao: 0,2	
 
 
 
 Professor(a) ASTÉRIO KIYOSHI TANAKA		
-Artigos em Revistas:		A1: 1	A2: 0	B1: 1	B2: 0	B3: 0	B4: 1	C: 3	NC: 3	
-Artigos em Eventos:		A1: 0	A2: 0	B1: 1	B2: 1	B3: 2	B4: 3	C: 0	NC: 30	
-Participacoes em Bancas:	Doutorado: 7	Mestrado: 20	Graduacao: 4	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 21	Graduacao: 7	
+Artigos em Revistas:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 0	B4: 1	C: 1	NC: 2	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 1	B3: 0	B4: 2	C: 0	NC: 18	
+Participacoes em Bancas:	Doutorado: 2	Mestrado: 5	Graduacao: 4	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 4	Graduacao: 5	
 Orientacoes em Andamento:	Doutorado: 0	Mestrado: 2	Graduacao: 0	
 
 Professor(a) CARLOS ALBERTO VIEIRA CAMPOS		
 Artigos em Revistas:		A1: 1	A2: 0	B1: 0	B2: 0	B3: 0	B4: 0	C: 1	NC: 0	
-Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 0	B4: 0	C: 0	NC: 23	
-Participacoes em Bancas:	Doutorado: 2	Mestrado: 14	Graduacao: 11	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 8	Graduacao: 7	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 0	B4: 0	C: 0	NC: 12	
+Participacoes em Bancas:	Doutorado: 2	Mestrado: 14	Graduacao: 8	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 8	Graduacao: 4	
 Orientacoes em Andamento:	Doutorado: 2	Mestrado: 6	Graduacao: 0	
 
 Professor(a) FERNANDA ARAÚJO BAIÃO AMORIM		
-Artigos em Revistas:		A1: 1	A2: 3	B1: 6	B2: 1	B3: 0	B4: 8	C: 3	NC: 9	
-Artigos em Eventos:		A1: 2	A2: 3	B1: 2	B2: 9	B3: 7	B4: 6	C: 0	NC: 81	
-Participacoes em Bancas:	Doutorado: 12	Mestrado: 14	Graduacao: 7	
-Orientacoes Concluidas:		Doutorado: 1	Mestrado: 29	Graduacao: 9	
+Artigos em Revistas:		A1: 1	A2: 2	B1: 4	B2: 1	B3: 0	B4: 6	C: 3	NC: 7	
+Artigos em Eventos:		A1: 1	A2: 2	B1: 1	B2: 7	B3: 2	B4: 5	C: 0	NC: 42	
+Participacoes em Bancas:	Doutorado: 9	Mestrado: 6	Graduacao: 4	
+Orientacoes Concluidas:		Doutorado: 1	Mestrado: 20	Graduacao: 5	
 Orientacoes em Andamento:	Doutorado: 2	Mestrado: 4	Graduacao: 1	
 
 Professor(a) LEONARDO GUERREIRO AZEVEDO		
-Artigos em Revistas:		A1: 1	A2: 0	B1: 1	B2: 0	B3: 0	B4: 2	C: 1	NC: 7	
-Artigos em Eventos:		A1: 0	A2: 0	B1: 3	B2: 1	B3: 4	B4: 4	C: 0	NC: 61	
-Participacoes em Bancas:	Doutorado: 1	Mestrado: 18	Graduacao: 16	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 7	Graduacao: 18	
+Artigos em Revistas:		A1: 1	A2: 0	B1: 0	B2: 0	B3: 0	B4: 2	C: 1	NC: 7	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 2	B2: 0	B3: 1	B4: 4	C: 0	NC: 48	
+Participacoes em Bancas:	Doutorado: 1	Mestrado: 14	Graduacao: 10	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 6	Graduacao: 14	
 Orientacoes em Andamento:	Doutorado: 0	Mestrado: 2	Graduacao: 1	
 
 Professor(a) MORGANNA CARMEM DINIZ		
-Artigos em Revistas:		A1: 0	A2: 2	B1: 2	B2: 0	B3: 1	B4: 0	C: 0	NC: 4	
-Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 1	B3: 0	B4: 1	C: 0	NC: 29	
-Participacoes em Bancas:	Doutorado: 2	Mestrado: 28	Graduacao: 4	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 10	Graduacao: 16	
+Artigos em Revistas:		A1: 0	A2: 1	B1: 1	B2: 0	B3: 1	B4: 0	C: 0	NC: 3	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 1	B3: 0	B4: 1	C: 0	NC: 15	
+Participacoes em Bancas:	Doutorado: 1	Mestrado: 13	Graduacao: 3	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 7	Graduacao: 6	
 Orientacoes em Andamento:	Doutorado: 0	Mestrado: 0	Graduacao: 0	
 
 Professor(a) SIDNEY CUNHA DE LUCENA		
-Artigos em Revistas:		A1: 1	A2: 1	B1: 0	B2: 0	B3: 0	B4: 0	C: 1	NC: 0	
-Artigos em Eventos:		A1: 0	A2: 1	B1: 0	B2: 0	B3: 0	B4: 0	C: 0	NC: 25	
-Participacoes em Bancas:	Doutorado: 1	Mestrado: 27	Graduacao: 6	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 9	Graduacao: 8	
+Artigos em Revistas:		A1: 1	A2: 1	B1: 0	B2: 0	B3: 0	B4: 0	C: 0	NC: 0	
+Artigos em Eventos:		A1: 0	A2: 1	B1: 0	B2: 0	B3: 0	B4: 0	C: 0	NC: 19	
+Participacoes em Bancas:	Doutorado: 1	Mestrado: 21	Graduacao: 3	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 8	Graduacao: 7	
 Orientacoes em Andamento:	Doutorado: 2	Mestrado: 4	Graduacao: 2	
 
 
 Total da linha de pesquisa Distribuição e Redes	
-Artigos em Revistas: 		A1: 0.8	A2: 1.0	B1: 1.7	B2: 0.2	B3: 0.2	B4: 1.8	C: 1.5	NC: 3.8	
-Artigos em Eventos: 		A1: 0.3	A2: 0.7	B1: 1.0	B2: 2.0	B3: 2.2	B4: 2.3	C: 0.0	NC: 41.5	
-Participacao em Banca: 		Doutorado: 4.2	Mestrado: 20.2	Graduacao: 8.0	
-Orientacao  Concluida: 		Doutorado: 0.2	Mestrado: 14.0	Graduacao: 10.8	
-Orientacao em Andamento: 	Doutorado: 1.0	Mestrado: 1.0	Graduacao: 0.7	
+Artigos em Revistas: 		A1: 0,7	A2: 0,7	B1: 0,8	B2: 0,2	B3: 0,2	B4: 1,5	C: 1,0	NC: 3,2	
+Artigos em Eventos: 		A1: 0,2	A2: 0,5	B1: 0,5	B2: 1,5	B3: 0,5	B4: 2,0	C: 0,0	NC: 25,7	
+Participacao em Banca: 		Doutorado: 2,7	Mestrado: 12,2	Graduacao: 5,3	
+Orientacao  Concluida: 		Doutorado: 0,2	Mestrado: 8,8	Graduacao: 6,8	
+Orientacao em Andamento: 	Doutorado: 1,0	Mestrado: 1,0	Graduacao: 0,7	
 
 
 
 Professor(a) CLAUDIA CAPPELLI		
-Artigos em Revistas:		A1: 0	A2: 0	B1: 1	B2: 2	B3: 3	B4: 1	C: 3	NC: 7	
-Artigos em Eventos:		A1: 2	A2: 0	B1: 0	B2: 1	B3: 7	B4: 9	C: 0	NC: 67	
-Participacoes em Bancas:	Doutorado: 4	Mestrado: 17	Graduacao: 16	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 6	Graduacao: 10	
+Artigos em Revistas:		A1: 0	A2: 0	B1: 0	B2: 2	B3: 3	B4: 1	C: 3	NC: 6	
+Artigos em Eventos:		A1: 1	A2: 0	B1: 0	B2: 0	B3: 3	B4: 9	C: 0	NC: 48	
+Participacoes em Bancas:	Doutorado: 4	Mestrado: 17	Graduacao: 8	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 6	Graduacao: 4	
 Orientacoes em Andamento:	Doutorado: 5	Mestrado: 10	Graduacao: 0	
 
 Professor(a) FLÁVIA MARIA SANTORO		
-Artigos em Revistas:		A1: 1	A2: 2	B1: 6	B2: 2	B3: 9	B4: 2	C: 14	NC: 11	
-Artigos em Eventos:		A1: 1	A2: 0	B1: 6	B2: 11	B3: 9	B4: 9	C: 0	NC: 123	
-Participacoes em Bancas:	Doutorado: 22	Mestrado: 64	Graduacao: 25	
-Orientacoes Concluidas:		Doutorado: 1	Mestrado: 36	Graduacao: 26	
+Artigos em Revistas:		A1: 0	A2: 2	B1: 4	B2: 1	B3: 5	B4: 2	C: 6	NC: 6	
+Artigos em Eventos:		A1: 1	A2: 0	B1: 1	B2: 6	B3: 5	B4: 3	C: 0	NC: 66	
+Participacoes em Bancas:	Doutorado: 12	Mestrado: 41	Graduacao: 14	
+Orientacoes Concluidas:		Doutorado: 1	Mestrado: 23	Graduacao: 9	
 Orientacoes em Andamento:	Doutorado: 4	Mestrado: 3	Graduacao: 0	
 
 Professor(a) GLEISON DOS SANTOS SANTOS		
-Artigos em Revistas:		A1: 0	A2: 0	B1: 0	B2: 2	B3: 0	B4: 1	C: 0	NC: 6	
-Artigos em Eventos:		A1: 0	A2: 0	B1: 5	B2: 2	B3: 41	B4: 7	C: 0	NC: 86	
-Participacoes em Bancas:	Doutorado: 5	Mestrado: 20	Graduacao: 13	
-Orientacoes Concluidas:		Doutorado: 1	Mestrado: 14	Graduacao: 14	
+Artigos em Revistas:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 0	B4: 1	C: 0	NC: 4	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 4	B2: 1	B3: 20	B4: 5	C: 0	NC: 39	
+Participacoes em Bancas:	Doutorado: 4	Mestrado: 16	Graduacao: 13	
+Orientacoes Concluidas:		Doutorado: 1	Mestrado: 14	Graduacao: 11	
 Orientacoes em Andamento:	Doutorado: 3	Mestrado: 5	Graduacao: 2	
 
 Professor(a) MÁRCIO DE OLIVEIRA BARROS		
-Artigos em Revistas:		A1: 1	A2: 5	B1: 1	B2: 4	B3: 0	B4: 3	C: 1	NC: 7	
-Artigos em Eventos:		A1: 2	A2: 0	B1: 7	B2: 15	B3: 4	B4: 10	C: 0	NC: 32	
-Participacoes em Bancas:	Doutorado: 5	Mestrado: 25	Graduacao: 29	
-Orientacoes Concluidas:		Doutorado: 1	Mestrado: 16	Graduacao: 25	
+Artigos em Revistas:		A1: 0	A2: 4	B1: 0	B2: 2	B3: 0	B4: 1	C: 0	NC: 3	
+Artigos em Eventos:		A1: 2	A2: 0	B1: 1	B2: 4	B3: 2	B4: 8	C: 0	NC: 11	
+Participacoes em Bancas:	Doutorado: 2	Mestrado: 13	Graduacao: 13	
+Orientacoes Concluidas:		Doutorado: 1	Mestrado: 9	Graduacao: 9	
 Orientacoes em Andamento:	Doutorado: 3	Mestrado: 2	Graduacao: 4	
 
 Professor(a) MARIANO PIMENTEL		
-Artigos em Revistas:		A1: 1	A2: 1	B1: 2	B2: 0	B3: 0	B4: 0	C: 2	NC: 7	
-Artigos em Eventos:		A1: 0	A2: 1	B1: 1	B2: 0	B3: 2	B4: 5	C: 0	NC: 61	
-Participacoes em Bancas:	Doutorado: 9	Mestrado: 32	Graduacao: 34	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 16	Graduacao: 11	
+Artigos em Revistas:		A1: 1	A2: 1	B1: 2	B2: 0	B3: 0	B4: 0	C: 1	NC: 4	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 0	B4: 4	C: 0	NC: 23	
+Participacoes em Bancas:	Doutorado: 8	Mestrado: 27	Graduacao: 30	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 14	Graduacao: 10	
 Orientacoes em Andamento:	Doutorado: 2	Mestrado: 2	Graduacao: 0	
 
 Professor(a) RENATA MENDES DE ARAUJO		
-Artigos em Revistas:		A1: 0	A2: 2	B1: 2	B2: 4	B3: 2	B4: 2	C: 10	NC: 6	
-Artigos em Eventos:		A1: 0	A2: 0	B1: 2	B2: 6	B3: 2	B4: 9	C: 0	NC: 69	
-Participacoes em Bancas:	Doutorado: 15	Mestrado: 45	Graduacao: 17	
-Orientacoes Concluidas:		Doutorado: 1	Mestrado: 28	Graduacao: 15	
+Artigos em Revistas:		A1: 0	A2: 2	B1: 1	B2: 1	B3: 1	B4: 1	C: 3	NC: 4	
+Artigos em Eventos:		A1: 0	A2: 0	B1: 0	B2: 2	B3: 1	B4: 8	C: 0	NC: 32	
+Participacoes em Bancas:	Doutorado: 7	Mestrado: 23	Graduacao: 6	
+Orientacoes Concluidas:		Doutorado: 1	Mestrado: 18	Graduacao: 3	
 Orientacoes em Andamento:	Doutorado: 4	Mestrado: 7	Graduacao: 0	
 
 Professor(a) SIMONE BACELLAR LEAL FERREIRA		
-Artigos em Revistas:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 1	B4: 12	C: 4	NC: 18	
-Artigos em Eventos:		A1: 0	A2: 2	B1: 3	B2: 2	B3: 0	B4: 4	C: 0	NC: 120	
-Participacoes em Bancas:	Doutorado: 3	Mestrado: 34	Graduacao: 17	
-Orientacoes Concluidas:		Doutorado: 0	Mestrado: 33	Graduacao: 20	
+Artigos em Revistas:		A1: 0	A2: 0	B1: 0	B2: 0	B3: 1	B4: 12	C: 2	NC: 6	
+Artigos em Eventos:		A1: 0	A2: 2	B1: 2	B2: 2	B3: 0	B4: 0	C: 0	NC: 53	
+Participacoes em Bancas:	Doutorado: 2	Mestrado: 12	Graduacao: 2	
+Orientacoes Concluidas:		Doutorado: 0	Mestrado: 12	Graduacao: 4	
 Orientacoes em Andamento:	Doutorado: 1	Mestrado: 7	Graduacao: 0	
 
 
 Total da linha de pesquisa Sistemas de Apoio a Negócios	
-Artigos em Revistas: 		A1: 0.4	A2: 1.4	B1: 1.7	B2: 2.0	B3: 2.1	B4: 3.0	C: 4.9	NC: 8.9	
-Artigos em Eventos: 		A1: 0.7	A2: 0.4	B1: 3.4	B2: 5.3	B3: 9.3	B4: 7.6	C: 0.0	NC: 79.7	
-Participacao em Banca: 		Doutorado: 9.0	Mestrado: 33.9	Graduacao: 21.6	
-Orientacao  Concluida: 		Doutorado: 0.6	Mestrado: 21.3	Graduacao: 17.3	
-Orientacao em Andamento: 	Doutorado: 3.1	Mestrado: 3.1	Graduacao: 0.9	
+Artigos em Revistas: 		A1: 0,1	A2: 1,3	B1: 1,0	B2: 0,9	B3: 1,4	B4: 2,6	C: 2,1	NC: 4,7	
+Artigos em Eventos: 		A1: 0,6	A2: 0,3	B1: 1,1	B2: 2,1	B3: 4,4	B4: 5,3	C: 0,0	NC: 38,9	
+Participacao em Banca: 		Doutorado: 5,6	Mestrado: 21,3	Graduacao: 12,3	
+Orientacao  Concluida: 		Doutorado: 0,6	Mestrado: 13,7	Graduacao: 7,1	
+Orientacao em Andamento: 	Doutorado: 3,1	Mestrado: 3,1	Graduacao: 0,9	
 
 
 Total do Programa PPGI-UNIRIO	
-Artigos em Revistas: 		A1: 0.6	A2: 1.4	B1: 1.3	B2: 0.9	B3: 1.0	B4: 2.2	C: 2.5	NC: 5.6	
-Artigos em Eventos: 		A1: 1.0	A2: 0.6	B1: 3.2	B2: 3.4	B3: 4.9	B4: 5.5	C: 0.0	NC: 55.8	
-Participacao em Banca: 		Doutorado: 6.0	Mestrado: 26.3	Graduacao: 15.3	
-Orientacao Concluida: 		Doutorado: 0.4	Mestrado: 16.0	Graduacao: 12.1	
-Orientacao em andamento: 	Doutorado: 1.9	Mestrado: 1.9	Graduacao: 0.6	
+Artigos em Revistas: 		A1: 0,3	A2: 1,2	B1: 0,7	B2: 0,4	B3: 0,7	B4: 1,8	C: 1,2	NC: 3,6	
+Artigos em Eventos: 		A1: 0,8	A2: 0,4	B1: 1,7	B2: 1,7	B3: 2,2	B4: 3,6	C: 0,0	NC: 31,3	
+Participacao em Banca: 		Doutorado: 3,9	Mestrado: 17,4	Graduacao: 9,9	
+Orientacao Concluida: 		Doutorado: 0,3	Mestrado: 10,8	Graduacao: 6,4	
+Orientacao em andamento: 	Doutorado: 1,9	Mestrado: 1,9	Graduacao: 0,6	
 

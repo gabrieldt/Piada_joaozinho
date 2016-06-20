@@ -123,7 +123,7 @@ public class LerArquivosXml
         return true;
     }
     
-    private static void parseArtigosRevistas( Document doc, Document doc_qualis, Professor p, String ano_inicial, String ano_final ) 
+    public static void parseArtigosRevistas( Document doc, Document doc_qualis, Professor p, String ano_inicial, String ano_final ) 
                                                 throws IOException, 
                                                        MalformedURLException, 
                                                        ParserConfigurationException, 

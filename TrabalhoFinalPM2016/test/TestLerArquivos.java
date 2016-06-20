@@ -124,16 +124,7 @@ public class TestLerArquivos {
             InputStream arquivo_xml_descompactado = Util.descompactaArquivoEmMemoria( arquivo_zip_memoria );
             
             assertTrue(LerArquivosXml.parseCurriculoProfessor( arquivo_xml_descompactado, p, ano_inical, ano_final));
-  
-            
         }
-        
-
-       
-        
-        
-        }
-
-
+    }
 }
 
