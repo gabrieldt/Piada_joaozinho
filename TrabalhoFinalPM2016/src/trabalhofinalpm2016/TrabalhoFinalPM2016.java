@@ -26,11 +26,31 @@ public class TrabalhoFinalPM2016
      * @throws javax.xml.parsers.ParserConfigurationException
      * @throws org.xml.sax.SAXException
      */
-    public static void main(String[] args) throws IOException, MalformedURLException, ParserConfigurationException, SAXException
+    public static void main(String[] args) throws IOException, MalformedURLException, ParserConfigurationException, SAXException 
     {
-        String nome_programa_pos_graduacao = "PPGI-UNIRIO";
-        String ano_inical = "2000";
-        String ano_final = "2016";
+        String nome_programa_pos_graduacao = "";
+        String ano_inical = "0";
+        String ano_final = "0";
+
+        int tamanho_args = 0;
+        for(String s : args )
+        {
+            tamanho_args++;
+        }
+        
+       if( tamanho_args == 3 
+           && args[1].length() == 4 
+           && args[2].length() == 4 )
+        {
+             nome_programa_pos_graduacao = args[0];
+             ano_inical = args[1];
+             ano_final = args[2];
+         }
+         else
+         {
+             System.out.println( "Insira o nome do programa e as datas!" );
+             System.exit(1);
+         }
         
         /*  DOWNLOAD ARQUIVO PROGRAMAS POS GRADUACAO    */
         String caminho_arquivo_remoto_xml = "https://s3.amazonaws.com/posgraduacao/programas.xml";
@@ -66,8 +86,6 @@ public class TrabalhoFinalPM2016
             boolean parsefunciona = false;
             
             parsefunciona = LerArquivosXml.parseCurriculoProfessor( arquivo_xml_descompactado, p, ano_inical, ano_final );
-       
-            System.out.println(parsefunciona);
         }
         
         CriarArquivosDeProfessores.escreverArquivoFinal( professores, nome_programa_pos_graduacao );

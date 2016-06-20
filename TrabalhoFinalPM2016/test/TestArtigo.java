@@ -30,5 +30,4 @@ public class TestArtigo {
    public void testePublicacaoClassificacao (){
     assertEquals("A1", PrimeiraInstancia.getClassificacao());
   }
-   
 }
